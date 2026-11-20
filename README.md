@@ -2,6 +2,12 @@
 
 Acreline is a local-first farm workspace for field records, weather data, and agricultural predictions.
 
+![Overview](images/overview.png)
+
+![crop](images/crop.png)
+
+![crop](images/price.png)
+
 The project combines a React and Vite interface with a FastAPI backend and five scikit-learn models:
 
 - Crop recommendation
