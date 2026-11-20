@@ -1,0 +1,21 @@
+[project]
+name = "smart-agriculture-mlops"
+version = "1.0.0"
+description = "Smart Agriculture MLOps — Acreline (uv workspace root)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["backend"]
+
+[tool.uv.sources]
+
+[tool.hatch.build.targets.wheel]
+packages = []
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["backend"]
